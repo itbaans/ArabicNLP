@@ -1,0 +1,111 @@
+
+{
+    "description": "Training metrics for CNN fusion model, these metrics are from the train, validation split on the data before the test phase. F1 reported is from the validation set. The details of the split are mentioned in paper",
+    "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "train_losses": [
+        0.26338132335381076,
+        0.17729757716516395,
+        0.12803774999527187,
+        0.07845917340464793,
+        0.05075814371154486,
+        0.019436684985911206,
+        0.0056166234150280955,
+        0.0038803709929717506,
+        0.005530404893607892,
+        0.0030591373169836632,
+        0.0008978859281365634,
+        0.0012541515216898088
+    ],
+    "val_f1_macro": [
+        0.6773849866502363,
+        0.726618246687054,
+        0.7244365859506113,
+        0.6780528755691382,
+        0.7147294372294373,
+        0.673380221653879,
+        0.6795260888753097,
+        0.6849395777967207,
+        0.6914664836421871,
+        0.6889903602232369,
+        0.696765601217656,
+        0.6914664836421871
+    ],
+    "best_f1": 0.726618246687054,
+    "best_epoch": 2,
+    "classification_reports": {
+        "epoch_1": {
+            "0": {
+                "precision": 0.9107468123861566,
+                "recall": 0.9380863039399625,
+                "f1-score": 0.9242144177449169,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.484375,
+                "recall": 0.3875,
+                "f1-score": 0.43055555555555564,
+                "support": 80
+            },
+            "accuracy": 0.866231647634584,
+            "macro avg": {
+                "precision": 0.6975609061930783,
+                "recall": 0.6627931519699812,
+                "f1-score": 0.6773849866502363,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8551028564466908,
+                "recall": 0.866231647634584,
+                "f1-score": 0.8597891176223248,
+                "support": 613
+            }
+        },
+        "epoch_2": {
+            "0": {
+                "precision": 0.9578947368421052,
+                "recall": 0.8536585365853658,
+                "f1-score": 0.9027777777777777,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.43478260869565216,
+                "recall": 0.75,
+                "f1-score": 0.5504587155963303,
+                "support": 80
+            },
+            "accuracy": 0.8401305057096248,
+            "macro avg": {
+                "precision": 0.6963386727688787,
+                "recall": 0.8018292682926829,
+                "f1-score": 0.726618246687054,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8896256173450152,
+                "recall": 0.8401305057096248,
+                "f1-score": 0.8567981285534452,
+                "support": 613
+            }
+        }
+    },
+    "test_set_scores":{
+        "description": "Official results from the leaderboard, the model was trained on just the train split (we didnt trained on train + valid just the train split), we took the best checkpoint from the training phase.",
+        "accuracy": 0.754,
+        "precision": 0.7758455265051571,
+        "recall": 0.7108333333333333,
+        "macro_f1": 0.7178368408737423
+    }
+}

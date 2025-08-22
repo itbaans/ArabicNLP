@@ -1,0 +1,300 @@
+{
+    "description": "Training metrics for custom embedding fusion model, these metrics are from the train, validation split on the data before the test phase. F1 reported is from the validation set. The details of the split are mentioned in paper",
+    "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+    ],
+    "train_losses": [
+        0.1626604368740862,
+        0.12733439956005518,
+        0.10961840979077599,
+        0.0965750479175673,
+        0.08148537658445247,
+        0.07138239960004757,
+        0.06217402701157254,
+        0.05296454230299244,
+        0.04412304450358663,
+        0.03747108445635864,
+        0.0317900814841707,
+        0.02560003852931323,
+        0.02119092865810766,
+        0.017097623516841756,
+        0.013835640781401815,
+        0.011752450369999974,
+        0.010249801373181792,
+        0.009459878962075749,
+        0.008616791699420322,
+        0.008349456961944023,
+        0.008112436124159917
+    ],
+    "val_f1_macro": [
+        0.6315982771860705,
+        0.644754081838339,
+        0.6490155516973883,
+        0.6543412143412144,
+        0.6459313190146827,
+        0.6493571091049267,
+        0.6610657963625333,
+        0.6687219817492138,
+        0.6651151610506534,
+        0.6851312121614369,
+        0.6896097758574129,
+        0.6709798059664452,
+        0.6780555090639411,
+        0.6709798059664452,
+        0.6751457339692634,
+        0.6754027241698299,
+        0.671470726872389,
+        0.6734398782343988,
+        0.6754027241698299,
+        0.6695163277880468,
+        0.6635543588452175
+    ],
+    "best_f1": 0.6896097758574129,
+    "best_epoch": 11,
+    "classification_reports": {
+        "epoch_1": {
+            "0": {
+                "precision": 0.933184855233853,
+                "recall": 0.7861163227016885,
+                "f1-score": 0.8533604887983706,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.3048780487804878,
+                "recall": 0.625,
+                "f1-score": 0.4098360655737705,
+                "support": 80
+            },
+            "accuracy": 0.765089722675367,
+            "macro avg": {
+                "precision": 0.6190314520071704,
+                "recall": 0.7055581613508443,
+                "f1-score": 0.6315982771860705,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8511872295955671,
+                "recall": 0.765089722675367,
+                "f1-score": 0.7954780192095158,
+                "support": 613
+            }
+        },
+        "epoch_2": {
+            "0": {
+                "precision": 0.9379157427937915,
+                "recall": 0.7936210131332082,
+                "f1-score": 0.8597560975609755,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.32098765432098764,
+                "recall": 0.65,
+                "f1-score": 0.4297520661157025,
+                "support": 80
+            },
+            "accuracy": 0.7748776508972267,
+            "macro avg": {
+                "precision": 0.6294516985573896,
+                "recall": 0.7218105065666041,
+                "f1-score": 0.644754081838339,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8574031048201792,
+                "recall": 0.7748776508972267,
+                "f1-score": 0.803638116295687,
+                "support": 613
+            }
+        },
+        "epoch_3": {
+            "0": {
+                "precision": 0.9269311064718163,
+                "recall": 0.8330206378986866,
+                "f1-score": 0.8774703557312252,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.3358208955223881,
+                "recall": 0.5625,
+                "f1-score": 0.42056074766355145,
+                "support": 80
+            },
+            "accuracy": 0.797716150081566,
+            "macro avg": {
+                "precision": 0.6313760009971022,
+                "recall": 0.6977603189493433,
+                "f1-score": 0.6490155516973883,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8497878489253983,
+                "recall": 0.797716150081566,
+                "f1-score": 0.8178410430959661,
+                "support": 613
+            }
+        },
+        "epoch_4": {
+            "0": {
+                "precision": 0.9337606837606838,
+                "recall": 0.8198874296435272,
+                "f1-score": 0.8731268731268732,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.33793103448275863,
+                "recall": 0.6125,
+                "f1-score": 0.4355555555555556,
+                "support": 80
+            },
+            "accuracy": 0.7928221859706363,
+            "macro avg": {
+                "precision": 0.6358458591217212,
+                "recall": 0.7161937148217636,
+                "f1-score": 0.6543412143412144,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8560015125661748,
+                "recall": 0.7928221859706363,
+                "f1-score": 0.8160213178157714,
+                "support": 613
+            }
+        },
+        "epoch_7": {
+            "0": {
+                "precision": 0.9251012145748988,
+                "recall": 0.8574108818011257,
+                "f1-score": 0.8899707887049659,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.36134453781512604,
+                "recall": 0.5375,
+                "f1-score": 0.4321608040201005,
+                "support": 80
+            },
+            "accuracy": 0.8156606851549756,
+            "macro avg": {
+                "precision": 0.6432228761950124,
+                "recall": 0.6974554409005629,
+                "f1-score": 0.6610657963625333,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8515277494186477,
+                "recall": 0.8156606851549756,
+                "f1-score": 0.8302239717803506,
+                "support": 613
+            }
+        },
+        "epoch_8": {
+            "0": {
+                "precision": 0.9229249011857708,
+                "recall": 0.8761726078799249,
+                "f1-score": 0.8989412897016362,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.38317757009345793,
+                "recall": 0.5125,
+                "f1-score": 0.4385026737967914,
+                "support": 80
+            },
+            "accuracy": 0.8287112561174551,
+            "macro avg": {
+                "precision": 0.6530512356396143,
+                "recall": 0.6943363039399624,
+                "f1-score": 0.6687219817492138,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8524847927234787,
+                "recall": 0.8287112561174551,
+                "f1-score": 0.8388514213943155,
+                "support": 613
+            }
+        },
+        "epoch_10": {
+            "0": {
+                "precision": 0.9188679245283019,
+                "recall": 0.9136960600375235,
+                "f1-score": 0.9162746942615241,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.4457831325301205,
+                "recall": 0.4625,
+                "f1-score": 0.4539877300613497,
+                "support": 80
+            },
+            "accuracy": 0.8548123980424144,
+            "macro avg": {
+                "precision": 0.6823255285292111,
+                "recall": 0.6880980300187618,
+                "f1-score": 0.6851312121614369,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8571276580358802,
+                "recall": 0.8548123980424144,
+                "f1-score": 0.8559436059482877,
+                "support": 613
+            }
+        },
+        "epoch_11": {
+            "0": {
+                "precision": 0.9219047619047619,
+                "recall": 0.9080675422138836,
+                "f1-score": 0.9149338374291115,
+                "support": 533
+            },
+            "1": {
+                "precision": 0.4431818181818182,
+                "recall": 0.4875,
+                "f1-score": 0.46428571428571425,
+                "support": 80
+            },
+            "accuracy": 0.8531810766721044,
+            "macro avg": {
+                "precision": 0.6825432900432901,
+                "recall": 0.6977837711069418,
+                "f1-score": 0.6896097758574129,
+                "support": 613
+            },
+            "weighted avg": {
+                "precision": 0.8594286844205278,
+                "recall": 0.8531810766721044,
+                "f1-score": 0.8561216843271999,
+                "support": 613
+            }
+        }
+    },
+    "test_set_scores": {
+        "description": "Test set metrics for custom embedding fusion model (best model based on validation set performance), We werent able to post the results of this model on officical leaderboard, but here we providing the results after getting the test gold results. the model was trained on train split (we didnt trained on train + valid just the train split)",
+        "accuracy": 0.748,
+        "f1_macro": 0.7200447928331468,
+        "precision_macro": 0.7517900700291132,
+        "recall_macro": 0.7133333333333334
+    }
+    
+}
